@@ -1,0 +1,4 @@
+#!/bin/bash
+
+wat2wasm addTwo.wast
+node index.js
