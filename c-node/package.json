@@ -1,0 +1,9 @@
+{
+  "name": "c-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "webassembly": "^0.11.0"
+  }
+}

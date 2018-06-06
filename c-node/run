@@ -1,0 +1,5 @@
+#!/bin/bash
+
+yarn
+node_modules/.bin/wa compile -o program.wasm program.c
+node index.js
