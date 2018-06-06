@@ -5,7 +5,7 @@ run = async () => {
   const module = await WebAssembly.instantiate(new Uint8Array(buf));
   const lib = module.instance.exports;
 
-  console.log(lib.add_one(2, 2));
+  console.log(lib.add(2, 2));
 };
 
 run();

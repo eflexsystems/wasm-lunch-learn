@@ -2,7 +2,9 @@ const wasm = require("webassembly");
 
 const run = async () => {
   const module = await wasm.load("program.wasm");
-  console.log("1 + 2 = " + module.exports.add(1, 2));
+  const lib = module.exports;
+
+  console.log(lib.add(2, 2));
 };
 
 run();
