@@ -1,0 +1,14 @@
+{
+  "name": "rust-node",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "author": "Jacob Jewell <jacobjewell@eflexsystems.com>",
+  "license": "MIT",
+  "dependencies": {
+    "neon-cli": "^0.1.23"
+  },
+  "scripts": {
+    "install": "neon build"
+  }
+}
