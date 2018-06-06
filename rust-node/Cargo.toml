@@ -1,0 +1,9 @@
+[package]
+name = "rust-node"
+version = "0.1.0"
+authors = ["Jacob Jewell <jacobjewell@eflexsystems.com>"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
