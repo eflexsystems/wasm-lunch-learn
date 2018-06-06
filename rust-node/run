@@ -1,4 +1,0 @@
-#!/bin/bash
-
-yarn run install
-node index.js
